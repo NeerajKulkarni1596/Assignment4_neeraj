@@ -1,0 +1,194 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /*background: linear-gradient(135deg,red 20%, orange 25%, purple 20%, pink 20%);*/
+    /*background: linear-gradient(125deg, purple 20%, yellow 20%);*/
+    background-image: radial-gradient(farthest-corner at 50px 50px, black 10%, grey 100%);
+
+}
+
+.container {
+
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 25px;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 3rem;
+}
+
+.header {
+
+    color: green;
+    width: 100%;
+    height: 60px;
+    border: 10px solid black;
+    animation: mymove 5s infinite;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+@keyframes mymove {
+    50% {
+        border-top-color: green;
+    }
+
+    50% {
+        border-bottom-color: green;
+    }
+
+    50% {
+        border-left-color: green;
+    }
+
+    50% {
+        border-right-color: green;
+    }
+}
+
+div {
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+
+}
+
+#one {
+    color: green;
+    background-color: black
+}
+
+
+
+#two {
+    color: green;
+    background-color: black
+}
+
+#three {
+    color: green;
+    background-color: black
+}
+
+
+#four {
+    color: green;
+    background-color: black
+}
+
+#five {
+    color: green;
+    background-color: black
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #777;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    width: 100%;
+
+}
+
+.container_vulkan {
+
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 25px;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    grid-gap: 1em;
+}
+
+.container_directx {
+
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 25px;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    grid-gap: 1em;
+}
+
+.container_metal {
+
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 25px;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    grid-gap: 1em;
+}
+
+.container_webgl {
+
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 25px;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    grid-gap: 1em;
+}
+
+.container_opengl {
+
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 25px;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 3rem;
+}
+
+#one_vulkan {
+    color: green;
+    background-color: black
+}
+
+
+
+#two_opengl {
+    color: green;
+    background-color: black
+}
+
+#three_webgl {
+    color: green;
+    background-color: black
+}
+
+
+#four_metal {
+    color: green;
+    background-color: black
+}
+
+#five_directx {
+    color: green;
+    background-color: black
+}
